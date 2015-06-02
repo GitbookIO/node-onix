@@ -13,6 +13,7 @@ var xml = onix.create({
 }, [
     {
         title: "My Awesome Book",
+        language: "eng",
         prices: [
             {
                 amount: 6,
