@@ -5,6 +5,10 @@ var xml = onix.create({
         company: "GitBook",
         person: "Samy Pesse",
         email: "samy@gitbook.com"
+    },
+    suplier: {
+        name: "ePubDirect",
+        availabilityCode: "IP"
     }
 }, [
     {
