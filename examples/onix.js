@@ -12,9 +12,7 @@ var xml = onix.create({
     }
 }, [
     {
-        price: 10
-    },
-    {
+        title: "My Awesome Book",
         prices: [
             {
                 amount: 6,

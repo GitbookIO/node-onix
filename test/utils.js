@@ -7,4 +7,9 @@ describe('Utils', function () {
 
         utils.formatDate(d).should.be.equal('20150601');
     });
+
+    it('should correctly pad integer', function() {
+        utils.pad(5, 2).should.be.equal('05');
+        utils.pad(52, 4).should.be.equal('0052');
+    });
 });
