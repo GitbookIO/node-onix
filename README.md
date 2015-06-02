@@ -16,9 +16,13 @@ $ npm install onix-builder
 ```js
 var onix = require("onix-builder");
 
-var xml = onix.create(
-
-);
+var xml = onix.create({
+    from: {
+        company: "GitBook",
+        person: "Samy Pesse",
+        email: "samy@gitbook.com"
+    }
+});
 ```
 
 
