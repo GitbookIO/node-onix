@@ -3,10 +3,8 @@ var should = require('should');
 
 describe('API', function () {
     it('should return empty xml', function() {
-        var xml = onix.create(
+        var xml = onix.create();
 
-        );
-
-
+        xml.should.be.instanceof(String);
     });
 });
