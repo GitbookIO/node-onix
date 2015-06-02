@@ -8,10 +8,16 @@ var xml = onix.create({
     }
 }, [
     {
-
+        price: 10
     },
     {
-
+        prices: [
+            {
+                amount: 6,
+                currency: 'eur'
+            },
+            5
+        ]
     }
 ]);
 
