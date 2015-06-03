@@ -24,7 +24,9 @@ var xml = onix.create({
                 value: '978123456789'
             },
 
-            //
+            // Form (DVD, ...)
+            form: 'DG',
+
             title: "My Awesome Book",
 
             // Language code as ISO 639
