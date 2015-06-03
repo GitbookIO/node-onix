@@ -13,7 +13,7 @@ var xml = onix.create({
     products: [
         {
             // Single record reference which will uniquely identify the product
-            id: "gitbook.com-<book id>",
+            id: "gitbook.com-bookId",
 
             // Notification type
             notification: onix.codes.NOTIFICATION.ADVANCE,
