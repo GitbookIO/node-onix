@@ -13,10 +13,16 @@ var xml = onix.create({
     products: [
         {
             // Single record reference which will uniquely identify the product
-            id: "gitbook.com-bookId",
+            record: "gitbook.com-bookId",
 
             // Notification type
             notification: onix.codes.NOTIFICATION.ADVANCE,
+
+            // ISBN or other id
+            id: {
+                type: onix.codes.PRODUCTID.ISBN13,
+                value: '978123456789'
+            },
 
             //
             title: "My Awesome Book",
