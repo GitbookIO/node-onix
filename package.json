@@ -5,6 +5,7 @@
     "author": "GitBook <contact@gitbook.com>",
     "description": "Library to generate ONIX XML files",
     "bugs": "https://github.com/GitbookIO/onix-builder/issues",
+    "license": "Apache-2.0",
     "engines": {
         "node": ">=0.6"
     },
