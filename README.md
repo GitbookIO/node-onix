@@ -25,33 +25,40 @@ var xml = onix.create({
     suplier: {
         name: "ePubDirect",
         availabilityCode: "IP"
-    }
-}, [
-    {
-        // Single record reference which will uniquely identify the product
-        id: "gitbook.com-<book id>",
+    },
+    products: [
+        {
+            // Single record reference which will uniquely identify the product
+            record: "gitbook.com-bookId",
 
-        // Notification type
-        notification: onix.codes.NOTIFICATION.ADVANCE,
+            // Notification type
+            notification: onix.codes.NOTIFICATION.ADVANCE,
 
-        //
-        title: "My Awesome Book",
-
-        // Language code as ISO 639
-        language: "eng",
-
-        // List of prices (number or object) or unique "price"
-        prices: [
-            {
-                amount: 6,
-                currency: 'eur'
+            // ISBN or other id
+            id: {
+                type: onix.codes.PRODUCTID.ISBN13,
+                value: '978123456789'
             },
 
-            // Number will default to usd currency
-            5
-        ]
-    }
-]);
+            //
+            title: "My Awesome Book",
+
+            // Language code as ISO 639
+            language: "eng",
+
+            // List of prices (number or object) or unique "price"
+            prices: [
+                {
+                    amount: 6,
+                    currency: 'eur'
+                },
+
+                // Number will default to usd currency
+                5
+            ]
+        }
+    ]
+});
 ```
 
 
