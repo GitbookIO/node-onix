@@ -23,9 +23,14 @@ var xml = onix.create({
                 type: onix.codes.PRODUCTID.ISBN13,
                 value: '978123456789'
             },
+            workId: {
+                type: onix.codes.WORKID.ISBN13,
+                value: '978123456789'
+            },
 
             // Form (DVD, ...)
             form: 'DG',
+            epubType: '029',
 
             title: "My Awesome Book",
 
