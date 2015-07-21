@@ -61,4 +61,10 @@ var xml = onix.create({
 });
 ```
 
+You can also parse an ONIX feed:
+
+```js
+
+var feed = onix.parse('...');
+```
 

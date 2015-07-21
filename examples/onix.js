@@ -52,3 +52,8 @@ var xml = onix.create({
 });
 
 console.log(xml);
+
+var def = onix.parse(xml);
+console.log(def);
+
+
