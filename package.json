@@ -1,6 +1,6 @@
 {
     "name": "onix-builder",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "main": "lib/index.js",
     "author": "GitBook <contact@gitbook.com>",
     "description": "Library to generate ONIX XML files",
