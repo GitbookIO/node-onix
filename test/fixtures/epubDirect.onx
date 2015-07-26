@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<ONIXMessage>
+ <Header>
+  <FromCompany>ePubDirect</FromCompany>
+  <FromPerson>Helen Burnett</FromPerson>
+  <FromEmail>deliveries@epubdirect.com</FromEmail>
+  <SentDate>20131129</SentDate>
+ </Header>
+ <Product>
+  <RecordReference>1f261549-df68-479e-a08d-9404101dafd8</RecordReference>
+  <NotificationType>03</NotificationType>
+  <ProductIdentifier>
+   <ProductIDType>15</ProductIDType>
+   <IDValue>978123456789</IDValue>
+  </ProductIdentifier>
+  <ProductForm>DG</ProductForm>
+  <EpubType>029</EpubType>
+  <NoSeries />
+  <Title>
+   <TitleType>01</TitleType>
+   <TitleText>Sample Title Name</TitleText>
+   <Subtitle>Sample Subtitle</Subtitle>
+  </Title>
+  <WorkIdentifier>
+   <WorkIDType>15</WorkIDType>
+   <IDValue>978123456789</IDValue>
+  </WorkIdentifier>
+  <Contributor>
+   <SequenceNumber>1</SequenceNumber>
+   <ContributorRole>A01</ContributorRole>
+   <PersonName>John Doe</PersonName>
+   <PersonNameInverted>Doe, John</PersonNameInverted>
+   <BiographicalNote>Sample Bio</BiographicalNote>
+  </Contributor>
+  <Contributor>
+   <SequenceNumber>2</SequenceNumber>
+   <ContributorRole>A01</ContributorRole>
+   <PersonName>Joe Bloggs</PersonName>
+   <PersonNameInverted>Bloggs, Joe</PersonNameInverted>
+   <BiographicalNote> Sample</BiographicalNote>
+  </Contributor>
+  <Language>
+   <LanguageRole>01</LanguageRole>
+   <LanguageCode>eng</LanguageCode>
+  </Language>
+  <NumberOfPages>80</NumberOfPages>
+  <BASICMainSubject>SOC029000</BASICMainSubject>
+  <BICMainSubject>VFJD</BICMainSubject>
+  <BICVersion>2.0</BICVersion>
+  <Subject>
+   <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+   <SubjectCode>MED083000</SubjectCode>
+  </Subject>
+  <Subject>
+   <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+   <SubjectCode>MED028000</SubjectCode>
+  </Subject>
+  <Subject>
+   <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+   <SubjectHeadingText>Sample Heading</SubjectHeadingText>
+  </Subject>
+  <AudienceCode>01</AudienceCode>
+  <OtherText>
+   <TextTypeCode>01</TextTypeCode>
+   <Text textformat="05"><![CDATA[<p>Sample description.</p>
+<p>Features</p>
+<p>Step by step guide</p>
+<p>Full colour illustrations: all the pictures have been selected following a period of testing.</p>
+<p>Glossary and list of helpful organisations.</p>
+<p>Suggested full text storyline.</p>
+<p>Readership</p>
+<p>People with learning difficulties (who also have Epilepsy) and their carers</p>]]></Text>
+  </OtherText>
+  <OtherText>
+   <TextTypeCode>02</TextTypeCode>
+   <Text textformat="05"><![CDATA[<p>Getting on with Epilepsy illustrates experiences that can be worrying for people with epilepsy such as having a seizure in public, going to the doctor, having a brain scan, an EEG, a blood test, and taking daily medication. The book also stimulates discussion about the balance between personal autonomy and the need for safety.</p>]]></Text>
+  </OtherText>
+  <OtherText>
+   <TextTypeCode>03</TextTypeCode>
+   <Text textformat="05"><![CDATA[<p>Getting on with Epilepsy illustrates experiences that can be worrying for people with epilepsy such as having a seizure in public, going to the doctor, having a brain scan, an EEG, a blood test, and taking daily medication. The book also stimulates discussion about the balance between personal autonomy and the need for safety. Many specific safety issues, such as cycling, cooking, safe drinking and swimming are addressed, demonstrating that it is possible to enjoy an active and independent life with epilepsy. The authors prepared this book with the help of an advisory panel of people with learning disabilities.</p>
+<p>Features</p>
+<p>Provides a step-by-step guide to help carers use the books.</p>
+<p>Full colour illustrations: all the pictures have been selected following a period of testing.</p>
+<p>Glossary and list of helpful organisations.</p>
+<p>Suggested full text storyline.</p>
+<p>Readership</p>
+<p>People with learning difficulties (who also have Epilepsy) and their carers</p>]]></Text>
+  </OtherText>
+  <MediaFile>
+   <MediaFileTypeCode>04</MediaFileTypeCode>
+   <MediaFileLinkTypeCode>06</MediaFileLinkTypeCode>
+   <MediaFileLink>978123456789.jpg</MediaFileLink>
+  </MediaFile>
+  <Imprint>
+   <ImprintName>Busy eBooks</ImprintName>
+  </Imprint>
+  <Publisher>
+   <PublishingRole>01</PublishingRole>
+   <PublisherName>Busy eBooks</PublisherName>
+  </Publisher>
+  <CityOfPublication>London</CityOfPublication>
+  <CountryOfPublication>GB</CountryOfPublication>
+  <PublishingStatus>04</PublishingStatus>
+  <PublicationDate>20130917</PublicationDate>
+  <SalesRights>
+   <SalesRightsType>02</SalesRightsType>
+   <RightsTerritory>WORLD</RightsTerritory>
+  </SalesRights>
+  <SalesRestriction>
+   <SalesRestrictionType>09</SalesRestrictionType>
+  </SalesRestriction>
+  <RelatedProduct>
+   <RelationCode>13</RelationCode>
+   <ProductIdentifier>
+    <ProductIDType>15</ProductIDType>
+    <IDValue>978123456789</IDValue>
+   </ProductIdentifier>
+  </RelatedProduct>
+  <SupplyDetail>
+   <SupplierName>ePubDirect</SupplierName>
+   <AvailabilityCode>IP</AvailabilityCode>
+   <ProductAvailability>20</ProductAvailability>
+   <ExpectedShipDate>20130917</ExpectedShipDate>
+   <OnSaleDate>20130917</OnSaleDate>
+   <Price>
+    <PriceTypeCode>01</PriceTypeCode>
+    <PriceQualifier>05</PriceQualifier>
+    <PriceAmount>7.95</PriceAmount>
+    <CurrencyCode>USD</CurrencyCode>
+   </Price>
+   <Price>
+    <PriceTypeCode>01</PriceTypeCode>
+    <PriceQualifier>05</PriceQualifier>
+    <PriceAmount>5.00</PriceAmount>
+    <CurrencyCode>GBP</CurrencyCode>
+   </Price>
+   <Price>
+    <PriceTypeCode>01</PriceTypeCode>
+    <PriceQualifier>05</PriceQualifier>
+    <PriceAmount>5.00</PriceAmount>
+    <CurrencyCode>EUR</CurrencyCode>
+   </Price>
+   <Price>
+    <PriceTypeCode>01</PriceTypeCode>
+    <PriceQualifier>05</PriceQualifier>
+    <PriceAmount>8.95</PriceAmount>
+    <CurrencyCode>CAD</CurrencyCode>
+   </Price>
+   <Price>
+    <PriceTypeCode>02</PriceTypeCode>
+    <PriceQualifier>05</PriceQualifier>
+    <PriceAmount>6.00</PriceAmount>
+    <CurrencyCode>GBP</CurrencyCode>
+    <TaxRateCode1>S</TaxRateCode1>
+    <TaxRatePercent1>20.00</TaxRatePercent1>
+    <TaxableAmount1>5.00</TaxableAmount1>
+    <TaxAmount1>1.00</TaxAmount1>
+   </Price>
+  </SupplyDetail>
+ </Product>
+</ONIXMessage>
