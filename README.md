@@ -1,4 +1,4 @@
-# ONIX for Books
+# node-onix
 
 [![NPM version](https://badge.fury.io/js/onix-builder.svg)](http://badge.fury.io/js/onix-builder)
 [![Build Status](https://travis-ci.org/GitbookIO/onix-builder.png?branch=master)](https://travis-ci.org/GitbookIO/onix-builder)
@@ -14,7 +14,7 @@ $ npm install onix
 ### How to use it?
 
 ```js
-var onix = require("onix-builder");
+var onix = require("onix");
 
 var xml = onix.create({
     from: {
