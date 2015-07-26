@@ -3,12 +3,12 @@
 [![NPM version](https://badge.fury.io/js/onix-builder.svg)](http://badge.fury.io/js/onix-builder)
 [![Build Status](https://travis-ci.org/GitbookIO/onix-builder.png?branch=master)](https://travis-ci.org/GitbookIO/onix-builder)
 
-This library can be used to generate ONIX files from a list of books metadatas.
+This library can be used to parse, or generate ONIX files from a list of books metadatas.
 
 ### Installation
 
 ```
-$ npm install onix-builder
+$ npm install onix
 ```
 
 ### How to use it?
