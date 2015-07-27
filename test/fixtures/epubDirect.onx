@@ -48,6 +48,7 @@
   <BICMainSubject>VFJD</BICMainSubject>
   <BICVersion>2.0</BICVersion>
   <Subject>
+   <MainSubject />
    <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
    <SubjectCode>MED083000</SubjectCode>
   </Subject>

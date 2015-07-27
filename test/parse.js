@@ -10,6 +10,7 @@ describe('Parsing', function () {
 
     it('should correctly parse xml', function() {
         feed = onix.parse(EPUBDIRECT);
-        console.log(feed);
+        console.log(JSON.stringify(feed, null, 4));
+        console.log(onix.create(feed));
     });
 });
