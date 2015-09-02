@@ -1,7 +1,7 @@
 # node-onix
 
 [![NPM version](https://badge.fury.io/js/onix.svg)](http://badge.fury.io/js/onix)
-[![Build Status](https://travis-ci.org/GitbookIO/onix-builder.png?branch=master)](https://travis-ci.org/GitbookIO/onix-builder)
+[![Build Status](https://travis-ci.org/GitbookIO/node-onix.png?branch=master)](https://travis-ci.org/GitbookIO/node-onix)
 
 This library can be used to parse, or generate ONIX files from a list of books metadatas.
 
